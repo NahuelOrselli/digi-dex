@@ -1,0 +1,100 @@
+.digiviceFrame {
+    max-width: 1280px;
+    max-height: 85vh;
+    transition: all ease-in-out .3s;
+}
+
+.digiviceFrame:hover {
+    filter: drop-shadow(0 0 4em #61dafbaa);
+}
+
+.card {
+    position: relative;
+}
+
+.btn-start {
+    position: absolute;
+    top: 49.5%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: none;
+    border-radius: 999px;
+    border: none;
+    padding: 72px;
+    transition: all ease-in-out .2s;
+}
+
+.btn-start:hover,
+.btn-next:hover,
+.btn-prev:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 20px #a032ee;
+    box-shadow: 0 0 20px #a032ee;
+}
+
+.btn-next,
+.btn-prev {
+    position: absolute;
+    right: -2%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: none;
+    border: none;
+    width: 152px;
+    height: 112px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    transition: all ease-in-out .2s;
+}
+
+.btn-next {
+    top: 38.5%;
+}
+
+.btn-prev {
+    top: 60.5%;
+}
+
+.inside-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.inside-card h3 {
+    color: rgb(22, 22, 22);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.inside-card p {
+    color: rgb(22, 22, 22);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.inside-card img {
+    width: 184px;
+    padding: 20px;
+    background: white;
+}
+
+@media screen and (max-width: 1366px) {
+    .inside-card img {
+        width: 140px;
+    }
+
+}

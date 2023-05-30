@@ -1,0 +1,25 @@
+.Footer {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.valor-logo {
+    width: 40px;
+    animation: animationValor 2s infinite alternate ease-in-out;
+}
+
+@keyframes animationValor {
+    from {
+        filter: drop-shadow(0 0 0em #ffa63fd6);
+        transform: scale(1);
+    }
+
+    to {
+        filter: drop-shadow(0 0 10em #ffa63fd6);
+        transform: scale(1.2);
+    }
+}

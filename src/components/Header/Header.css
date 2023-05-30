@@ -1,0 +1,61 @@
+.Header-nav {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header-ul {
+    width: 90%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.Header-ul-li {
+    text-decoration: none;
+    width: 33%;
+    max-width: 420px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header-ul-li button {
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.Header-ul-li-a {
+    text-decoration: none;
+    transition: all ease-in-out .3s;
+    color: rgba(255, 255, 255, 0.786);
+}
+
+.Header-ul-li-a:visited {
+    color: rgba(255, 255, 255, 0.786);
+}
+
+.Header-ul-li-a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 2px aliceblue;
+}
+
+.logo {
+    font-size: 70px;
+    margin-top: 5vh;
+    letter-spacing: 15px;
+    text-shadow: 2px 2px #ff7300dd;
+}
+
+@media screen and (max-width: 1366px) {
+    .logo {
+        font-size: 50px;
+    }
+}
