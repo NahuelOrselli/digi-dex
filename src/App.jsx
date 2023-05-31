@@ -5,6 +5,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 
 import './App.css'
+import Help from './components/Help/Help'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Digivice />
         <Footer />
+        <Help />
       </Provider>
     </>
   )
